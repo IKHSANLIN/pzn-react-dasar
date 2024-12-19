@@ -1,9 +1,7 @@
-let count = 0;
-export default function Row({ text }) {
-  count++;
+export default function Row({ id, text }) {
   return (
     <tr>
-      <td>{count}</td>
+      <td>{id}</td>
       <td>{text}</td>
     </tr>
   );
